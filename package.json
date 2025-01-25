@@ -1,5 +1,5 @@
 {
-	"name": "@~englishm/moq-js",
+	"name": "@juanmanulpzg/moq-js",
 	"version": "1.0.0",
 	"type": "module",
 	"workspaces": [
@@ -22,6 +22,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/englishm/moq-js"
+		"url": "https://github.com/Juanmalopezg/moq-js"
 	}
 }
