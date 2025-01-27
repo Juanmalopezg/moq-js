@@ -15,7 +15,9 @@ jobs:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
-      - run: npm run build
-      - run: npm publish --provenance --access public
+      - run: npm run build --workspace=moq-player
+      - run: cp README.md lib/README.md
+      - working-directory: lib
+        run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
