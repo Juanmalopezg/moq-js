@@ -1,5 +1,5 @@
 {
-	"name": "moq-player",
+	"name": "@juanmanulpzg/moq-player",
 	"version": "0.0.1",
 	"description": "Media over QUIC library",
 	"license": "(MIT OR Apache-2.0)",
@@ -69,5 +69,9 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Juanmalopezg/moq-js"
 	}
 }
