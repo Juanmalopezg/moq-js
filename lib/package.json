@@ -5,7 +5,7 @@
 	"license": "(MIT OR Apache-2.0)",
 	"wc-player": "video-moq/index.ts",
 	"simple-player": "playback/index.ts",
-	"files": ["dist" , "common" , "media" , "playback", "transport", "types" , "video-moq"],
+	"files": ["dist"],
 	"exports": {
 		".": {
 			"import": "./dist/moq-player.esm.js",
