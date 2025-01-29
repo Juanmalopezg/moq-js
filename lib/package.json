@@ -1,6 +1,6 @@
 {
-	"name": "@moq-js/player",
-	"version": "0.2.0",
+	"name": "@juanmanulpzg/player",
+	"version": "0.2.3",
 	"description": "Media over QUIC library",
 	"license": "(MIT OR Apache-2.0)",
 	"wc-player": "video-moq/index.ts",
@@ -73,6 +73,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/~englishm/moq-js"
+		"url": "https://github.com/Juanmalopezg/moq-js"
 	}
 }
